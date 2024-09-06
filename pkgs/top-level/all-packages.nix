@@ -282,6 +282,8 @@ with pkgs;
 
   _0x =  callPackage ../tools/misc/0x { };
 
+  autogluon = callPackage ../by-name/au/autogluon { };
+
   automatic-timezoned = callPackage ../tools/system/automatic-timezoned { };
 
   cve = with python3Packages; toPythonApplication cvelib;
